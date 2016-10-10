@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D4AB92771DAB11C2001560A6 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = D4AB92761DAB11C2001560A6 /* main.c */; };
+		D4AB927F1DAB120A001560A6 /* dynamicArray.c in Sources */ = {isa = PBXBuildFile; fileRef = D4AB927D1DAB120A001560A6 /* dynamicArray.c */; };
+		D4AB92801DAB120A001560A6 /* stackapp.c in Sources */ = {isa = PBXBuildFile; fileRef = D4AB927E1DAB120A001560A6 /* stackapp.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		D4AB92731DAB11C2001560A6 /* AmAnalysisDynArr */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AmAnalysisDynArr; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4AB92761DAB11C2001560A6 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		D4AB927D1DAB120A001560A6 /* dynamicArray.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dynamicArray.c; sourceTree = "<group>"; };
+		D4AB927E1DAB120A001560A6 /* stackapp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stackapp.c; sourceTree = "<group>"; };
+		D4AB92811DAB1231001560A6 /* dynArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dynArray.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		D4AB92751DAB11C2001560A6 /* AmAnalysisDynArr */ = {
 			isa = PBXGroup;
 			children = (
-				D4AB92761DAB11C2001560A6 /* main.c */,
+				D4AB92811DAB1231001560A6 /* dynArray.h */,
+				D4AB927D1DAB120A001560A6 /* dynamicArray.c */,
+				D4AB927E1DAB120A001560A6 /* stackapp.c */,
 			);
 			path = AmAnalysisDynArr;
 			sourceTree = "<group>";
@@ -119,7 +124,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4AB92771DAB11C2001560A6 /* main.c in Sources */,
+				D4AB92801DAB120A001560A6 /* stackapp.c in Sources */,
+				D4AB927F1DAB120A001560A6 /* dynamicArray.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
